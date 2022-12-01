@@ -7,8 +7,8 @@
 <body>
     <h1>PHP For Beginners</h1>
     <ol>
-        <li>Variables</li>
-        <li>Conditonals and Booleans</li>
+        <li><a href="variables.php">Variables</a></li>
+        <li><a href="conditionals-and-booleans.php">Conditonals and Booleans</a></li>
     </ol>
 </body>
 </html>
