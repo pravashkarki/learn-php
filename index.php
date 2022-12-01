@@ -15,8 +15,25 @@
 <body>
 <?php
     $greeting = "Hello";
+    $book_name = "Dark Matter";
+    $read = false;
+
     // echo $greeting . " " . "Pravash";
-    echo "$greeting Everyone!";
+    // echo "$greeting Everyone!";
+
+    if ($read) {
+        $message = "You have read $book_name";
+    } else {
+        $message = "You have not read $book_name";
+    }
 ?>
+<h1>
+    <?php
+       // echo $message;
+    ?>
+
+    <?= $message ?> // echo $message;
+
+</h1>
 </body>
 </html>
