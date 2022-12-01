@@ -2,38 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
-    <style>
-        body {
-            display: grid;
-            place-items: center;
-            height: 100vh;
-            font-family: sans-serif;
-        }
-    </style>
+    <title>PHP For Beginners</title>
 </head>
 <body>
-<?php
-    $greeting = "Hello";
-    $book_name = "Dark Matter";
-    $read = false;
-
-    // echo $greeting . " " . "Pravash";
-    // echo "$greeting Everyone!";
-
-    if ($read) {
-        $message = "You have read $book_name";
-    } else {
-        $message = "You have not read $book_name";
-    }
-?>
-<h1>
-    <?php
-       // echo $message;
-    ?>
-
-    <?= $message ?> // echo $message;
-
-</h1>
+    <h1>PHP For Beginners</h1>
+    <ol>
+        <li>Variables</li>
+        <li>Conditonals and Booleans</li>
+    </ol>
 </body>
 </html>
