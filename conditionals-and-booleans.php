@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>Conditionals and Booleans</title>
     <style>
         body {
             display: grid;
@@ -12,8 +13,9 @@
         }
     </style>
 </head>
+
 <body>
-<?php
+    <?php
     $greeting = "Hello";
     $book_name = "Dark Matter";
     $read = false;
@@ -26,14 +28,15 @@
     } else {
         $message = "You have not read $book_name";
     }
-?>
-<h1>
-    <?php
-       // echo $message;
     ?>
+    <h1>
+        <?php
+        // echo $message;
+        ?>
 
-    <?= $message ?> // echo $message;
+        <?= $message ?> // echo $message;
 
-</h1>
+    </h1>
 </body>
+
 </html>

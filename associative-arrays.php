@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Arrays</title>
+    <title>Associative Arrays</title>
 </head>
 
 <body>
