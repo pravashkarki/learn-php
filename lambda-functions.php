@@ -49,7 +49,8 @@
 
     $filteredBooks = array_filter($books, function ($book) {
         // return $book['releaseYear'] <= '2015';
-        return $book['releaseYear'] >= 2000 && $book['releaseYear'] <= 2020;
+        // return $book['releaseYear'] >= 2000 && $book['releaseYear'] <= 2020;
+        return $book['releaseYear'] === '2015';
     });
 
     ?>
