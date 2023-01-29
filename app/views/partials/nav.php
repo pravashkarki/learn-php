@@ -10,9 +10,9 @@
                     <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
                     <a href="/" class="<?= urlIs('/') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500'; ?> inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium" aria-current="page">Home</a>
 
-                    <a href="/about.php" class="<?= urlIs('/about.php') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500'; ?> hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About</a>
+                    <a href="/about" class="<?= urlIs('/about') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500'; ?> hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">About</a>
 
-                    <a href="/contact.php" class="<?= urlIs('/contact.php') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500'; ?> hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Contact</a>
+                    <a href="/contact" class="<?= urlIs('/contact') ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500'; ?> hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">Contact</a>
 
                 </div>
             </div>
