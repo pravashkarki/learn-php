@@ -2,19 +2,12 @@
 require('functions.php');
 // require('router.php');
 
+require('Database.php');
 
 
-// connect to our MySQL database
-$dsn = "mysql:host=localhost;port=3306;dbname=myapp;user=root;password=root;charset=utf8mb4";
+$db = new Database();
+$posts = $db->query("SELECT * FROM posts")->fetchAll(PDO::FETCH_ASSOC);
 
-
-
-$pdo = new PDO($dsn);
-
-$statement = $pdo->prepare("SELECT * FROM posts");
-$statement->execute();
-
-$posts = $statement->fetchAll(PDO::FETCH_ASSOC);
 
 foreach ($posts as $post) {
     echo $post['titile'] . "<br>";
